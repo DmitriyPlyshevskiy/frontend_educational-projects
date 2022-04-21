@@ -112,6 +112,10 @@ a {
     cursor: pointer;
 }
 
+.active {
+    color: #BDAE82;
+}
+
 /* MAIN */
 
 /*HER0 SECTION */
@@ -123,6 +127,7 @@ a {
     background-image: url(./assets/img/bg.png);
     background-repeat: no-repeat;
     background-position: center -90px;
+    background-size: 1440px 910px;
 }
 
 .hero {
@@ -138,4 +143,24 @@ a {
     font-size: 20px;
     line-height: 40px;
     padding-bottom: 25px;
+}
+
+/* SKILLS SECTION */
+.skills {
+    padding-top: 100px;
+}
+
+.skills-title {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+}
+
+.section-title{
+    display: inline-block;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 20px;
+    background-color: #000;
 }
