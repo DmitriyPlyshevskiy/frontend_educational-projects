@@ -40,6 +40,21 @@ a {
     padding: 0 20px;
 }
 
+.button {
+    width: 220px;
+    height: 55px;
+    font-size: 20px;
+    border: none;
+    color: #000;
+    background-color: #BDAE82;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
 /* HEADER */
 .header-container {
     max-width: 1440px;
@@ -51,7 +66,6 @@ a {
     background-image: url(./assets/img/bg.png);
     background-repeat: no-repeat;
     background-position: center 0; 
-    /* background-size: contain;    */
     font-size: 20px;
 }
 
@@ -105,8 +119,23 @@ a {
     max-width: 1440px;
     height: 820px;
     margin: 0 auto;
+    padding: 180px 0 0 80px;
     background-image: url(./assets/img/bg.png);
     background-repeat: no-repeat;
     background-position: center -90px;
-    /* background-size: auto auto; */
+}
+
+.hero {
+    max-width: 470px;
+}
+
+.hero-title {
+    font-size: 60px;
+    padding-bottom: 35px;
+}
+
+.hero-description {
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 25px;
 }
