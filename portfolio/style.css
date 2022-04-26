@@ -248,3 +248,34 @@ a {
     justify-content: space-between;
     gap: 20px;
 }
+
+/* VIDEO SECTION */
+.video {
+    padding-top: 100px;
+}
+
+.video-player {
+    display: flex;
+    justify-content: center;
+    height: 705px;
+    background-image: url(./assets/img/video-player.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.video-btn {
+    background: transparent;
+    border: none;
+    transition: 0.1s;
+}
+
+.video-btn_icon {    
+    width: 130px;
+    fill: #FFFFFF;
+    cursor: pointer;
+}
+
+.video-btn_icon:hover {
+    fill: #BDAE82;
+    transition: 0.5s;    
+}
