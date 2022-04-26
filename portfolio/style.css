@@ -40,6 +40,27 @@ a {
     padding: 0 20px;
 }
 
+.logo {
+    width: 50px;
+    height: 50px;
+    fill: #FFFFFF;
+}
+
+.logo:hover{
+    fill: #BDAE82;
+    transition: 0.5s;
+}
+
+.sm-icons {    
+    width: 32px;
+    height: 32px;
+}
+
+/* .sm-icons a:hover {
+    fill: #BDAE82;
+    transition: 0.5s;
+} */
+
 .button {
     width: 220px;
     height: 55px;
@@ -82,17 +103,6 @@ a {
     background-repeat: no-repeat;
     background-position: center 0; 
     font-size: 20px;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
-    fill: #FFFFFF;
-}
-
-.logo:hover{
-    fill: #BDAE82;
-    transition: 0.5s;
 }
 
 .nav {
@@ -390,3 +400,5 @@ a {
     line-height: 40px;
     color: #BDAE82;
 }
+
+/* FOOTER */
