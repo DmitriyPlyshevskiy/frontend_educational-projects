@@ -282,7 +282,7 @@ a {
 
 /* PRICE SECTION */
 .price {
-    padding-top: 100px;
+    padding: 100px 0;
 }
 
 .price-items {
@@ -319,4 +319,74 @@ a {
     text-align: center;
     font-size: 18px;
     line-height: 36px;
+}
+
+/* CONTACT ME SECTION */
+.contact-me {
+    max-width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    padding-top: 60px;
+    background-image: url(./assets/img/contacts.jpg);
+    background-repeat: no-repeat;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-me_form {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title {
+    background: none;
+    padding: 0 0 40px 0;
+}
+
+.email {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    line-height: 40px;
+    color: #BDAE82;
+    border: 2px solid #BDAE82;
+}
+
+.tel {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    line-height: 40px;
+    color: #BDAE82;    
+    border: 2px solid #BDAE82;
+}
+.message {
+    resize: none;
+    width: 100%;
+    height: 100px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.5);    
+    font-size: 20px;
+    line-height: 40px;
+    color: #BDAE82;    
+    border: 2px solid #BDAE82;
+}
+
+::placeholder {
+    font-size: 20px;
+    line-height: 40px;
+    color: #BDAE82;
 }
