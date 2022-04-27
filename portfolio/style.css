@@ -51,16 +51,6 @@ a {
     transition: 0.5s;
 }
 
-.sm-icons {    
-    width: 32px;
-    height: 32px;
-}
-
-/* .sm-icons a:hover {
-    fill: #BDAE82;
-    transition: 0.5s;
-} */
-
 .button {
     width: 220px;
     height: 55px;
@@ -402,3 +392,42 @@ a {
 }
 
 /* FOOTER */
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.rs-school-link {
+    font-size: 20px;
+}
+
+.rs-school-link a:hover {
+    color: #BDAE82;
+    transition: 0.5s;
+}
+
+.social-list {
+    display: flex;
+    gap: 20px;
+}
+
+.sm-icons {    
+    width: 32px;
+    height: 32px;
+}
