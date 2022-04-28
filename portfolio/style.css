@@ -259,6 +259,17 @@ a {
     gap: 20px;
 }
 
+@media (max-width: 1024px){
+    .portfolio-items {
+        justify-content: center;
+    }
+}
+
+.portfolio-item {
+    height: 560px;
+}
+
+
 /* VIDEO SECTION */
 .video {
     padding-top: 100px;
