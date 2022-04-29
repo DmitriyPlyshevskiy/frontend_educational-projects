@@ -319,6 +319,12 @@ a {
     border: 3px solid #BDAE82;
 }
 
+@media (max-width: 1024px) {
+    .price-item {
+        width: 315px
+    }
+}
+
 .price-item_title {
     padding-bottom: 20px;
     font-size: 28px;
