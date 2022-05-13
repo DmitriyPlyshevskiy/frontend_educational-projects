@@ -129,9 +129,8 @@ a {
 
 @media (max-width: 768px) {
     .nav {
-        position: absolute;
+        position: fixed;
         top: 0;
-        right: 0;
         right: -620px;
         width: 620px;
         background-color: #000;
@@ -141,6 +140,13 @@ a {
         transition: 0.5s;
         z-index: 1;
     }
+
+    .nav-open {
+        right: 0;
+        top: 0;
+        box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+    }
+    
 
     .lang {
         margin-left: auto;
