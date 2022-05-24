@@ -1,16 +1,17 @@
 const hamburger = document.querySelector('.hamburger');
 const navOpen = document.querySelector('.nav');
-const navElements = document.querySelectorAll('.nav-items');
+const navLinks = document.querySelectorAll('.nav-link');
 
-function openCloseMenu() {
+function openMenu() {
     hamburger.classList.toggle('is-active');
     navOpen.classList.toggle('nav-open');
 }
 
-hamburger.addEventListener('click', openCloseMenu);
+hamburger.addEventListener('click', openMenu);
 
 function closeMenu() {
+    hamburger.classList.remove('is-active');
     navOpen.classList.remove('nav-open');
 }
 
-navElements.addEventListener('click', closeMenu);
+navLinks.forEach((el) => el.addEventListener('click', closeMenu))
