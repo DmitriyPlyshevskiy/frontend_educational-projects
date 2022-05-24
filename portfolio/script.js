@@ -14,4 +14,15 @@ function closeMenu() {
     navOpen.classList.remove('nav-open');
 }
 
-navLinks.forEach((el) => el.addEventListener('click', closeMenu))
+navLinks.forEach((el) => el.addEventListener('click', closeMenu));
+
+const portfolioBtn = document.querySelectorAll('.portfolio-btn');
+const portfolioItemImg = document.querySelectorAll('.portfolio-item_img');
+
+
+
+
+function consoleBtn () {
+    console.log('portfolio-btn');
+}
+portfolioBtn.forEach((el) => el.addEventListener('click', consoleBtn));
